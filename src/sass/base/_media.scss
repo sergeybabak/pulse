@@ -2,7 +2,71 @@
 	
 @media (max-width: 991px) {}
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .header {
+        justify-content: space-around;
+    }
+    .promo__wrapper {
+        align-items: center;
+    }
+
+    .advantages__items {
+        justify-content: space-around;
+    }
+    .advantages__item {
+        width: 30%;
+    }
+    .consultation {
+        padding-left: 5%;
+    }
+}
 	
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        &__contacts, &__official {
+            margin-top: 25px;
+        }
+    }
+    .promo_wrapper {
+        margin-top: 50px;
+    }
+    .promo__header {
+        font-size: 30px;
+    }
+    .promo__subheader {
+        font-size: 18px;
+    }
+    .promo__icons {
+        width: 100%;
+        margin-top: 40px;
+        justify-content: space-around;
+    }
+    .button_main,.promo__link {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .advantages {
+        padding: 50px 15px;
+        &__items {
+            flex-direction: column;
+        }
+        &__item {
+            width: 100%;
+        }
+    }
+    .title_left {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .consultation__descr {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .feed-form {
+        margin-top: 70px;
+    }
+}
 	
